@@ -1,0 +1,1 @@
+const SITE_SETTINGS={"API_URL" : "http://local.example.com/api" };
