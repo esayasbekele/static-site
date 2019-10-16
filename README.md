@@ -24,7 +24,6 @@ docker build -t sample-ui .
 ## 3) Pass `SITE_SETTINGS` as json 
 
 ```
-docker run -e SITE_SETTINGS='{"API_URL" : "http://production.example.com" }' -d --restar
-t always  --name sample-ui -p 4000:4000 sample-ui
+docker run -e SITE_SETTINGS='{"API_URL" : "http://production.example.com" }' -d --restart always  --name sample-ui -p 4000:4000 sample-ui
 ```
 
